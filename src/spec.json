@@ -1,0 +1,244 @@
+{
+  "title": "Agenda eventi e iscrizioni",
+  "description": "Prototipo per consultare il calendario culturale della biblioteca, filtrare gli appuntamenti e gestire iscrizioni e disponibilità dei posti.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi e delle iscrizioni, con accesso rapido alle attività in programma.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni attive",
+          "value": "84"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "56"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Racconti tra le nuvole",
+          "18/06/2026",
+          "17:00",
+          "Sala Lumo",
+          "24",
+          "19",
+          "5",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Laboratorio di segnalibri",
+          "20/06/2026",
+          "10:30",
+          "Atelier Vela",
+          "16",
+          "16",
+          "0",
+          "Al completo"
+        ],
+        [
+          "Viaggio nel cielo stellato",
+          "22/06/2026",
+          "18:00",
+          "Sala Nubi",
+          "30",
+          "22",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Poesie in giardino",
+          "25/06/2026",
+          "16:30",
+          "Cortile Brina",
+          "20",
+          "14",
+          "6",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta e filtra il calendario degli appuntamenti culturali; usa il modulo per inserire un nuovo evento.",
+      "metrics": [
+        {
+          "label": "Eventi visibili",
+          "value": "12"
+        },
+        {
+          "label": "In programma",
+          "value": "9"
+        },
+        {
+          "label": "Al completo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Racconti tra le nuvole",
+          "18/06/2026",
+          "17:00",
+          "Sala Lumo",
+          "24",
+          "19",
+          "5",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Laboratorio di segnalibri",
+          "20/06/2026",
+          "10:30",
+          "Atelier Vela",
+          "16",
+          "16",
+          "0",
+          "Al completo"
+        ],
+        [
+          "Viaggio nel cielo stellato",
+          "22/06/2026",
+          "18:00",
+          "Sala Nubi",
+          "30",
+          "22",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Poesie in giardino",
+          "25/06/2026",
+          "16:30",
+          "Cortile Brina",
+          "20",
+          "14",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Storie in valigia",
+          "27/06/2026",
+          "11:00",
+          "Sala Lumo",
+          "18",
+          "11",
+          "7",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Filtra le iscrizioni per evento o stato e registra nuove partecipazioni.",
+      "metrics": [
+        {
+          "label": "Iscrizioni totali",
+          "value": "84"
+        },
+        {
+          "label": "Confermate",
+          "value": "76"
+        },
+        {
+          "label": "In attesa",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Numero posti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo Rugiada",
+          "Racconti tra le nuvole",
+          "10/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Vela Quarzo",
+          "Laboratorio di segnalibri",
+          "11/06/2026",
+          "1",
+          "In attesa"
+        ],
+        [
+          "Nubi Corallo",
+          "Viaggio nel cielo stellato",
+          "12/06/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Brina Cedro",
+          "Poesie in giardino",
+          "12/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Lumo Salvia",
+          "Storie in valigia",
+          "13/06/2026",
+          "2",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Numero posti",
+        "Stato"
+      ]
+    }
+  ]
+}
